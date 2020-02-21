@@ -1,0 +1,5 @@
+print(type('Luiz'))
+print(type(10))
+print(type(4.5))
+print(type(10 == 10))
+print(type(int('10')), type(bool(1)))
