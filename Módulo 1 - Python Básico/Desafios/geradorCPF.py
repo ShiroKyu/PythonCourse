@@ -1,10 +1,7 @@
-'''
-Cpf = 168.995.350-09
+from random import randint
 
-'''
-
-cpf = '50048764876'
-novoCpf = cpf[:-2]
+numAleatorio = str(randint(100000000, 999999999))
+novoCpf = numAleatorio
 
 soma = 0
 validacao1 = 10
@@ -30,11 +27,4 @@ formula = 11 - (soma % 11)
 digito2 = formula if (formula <= 9) else 0
 novoCpf += str(digito2)
 
-# Evitar sequencias
-sequencia = novoCpf == str(novoCpf[0] * 11)
-
 print(novoCpf)
-if cpf == novoCpf and not sequencia:
-    print('CPF válido.')
-else:
-    print('CPF inválido')
