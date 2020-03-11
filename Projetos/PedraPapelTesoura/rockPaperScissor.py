@@ -1,0 +1,1 @@
+machine = ('pedra', 'papel', 'tesoura')
