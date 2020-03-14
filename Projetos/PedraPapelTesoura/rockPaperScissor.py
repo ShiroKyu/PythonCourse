@@ -1,1 +1,0 @@
-machine = ('pedra', 'papel', 'tesoura')

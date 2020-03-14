@@ -1,5 +1,4 @@
-#!/home/paulo/Documentos/PythonCourse/venv/bin/python
-
+#!/home/paulo/Documents/PythonCourse/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
