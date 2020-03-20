@@ -8,10 +8,8 @@ while parada == 2:
     candidatos[nome] = {}
     candidatos[nome]['partido'] = partido
     candidatos[nome]['sigla'] = sigla
-
+    candidatos[nome]['votos'] = 0
     print('Deseja parar de inserir? ')
     parada = int(input('[1] Sim, [2] - Não\nEscolha: '))
 
-
-for nome, caract in candidatos.items():
-    print(f'{nome}: {caract}')
+qtd = len(candidatos)
