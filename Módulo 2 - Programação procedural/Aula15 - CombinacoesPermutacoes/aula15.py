@@ -21,3 +21,5 @@ print()
 
 for grupo in product(pessoa, repeat=2):
     print(grupo)
+
+print()
