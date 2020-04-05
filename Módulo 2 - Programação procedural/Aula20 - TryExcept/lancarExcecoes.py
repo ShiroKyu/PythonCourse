@@ -1,3 +1,6 @@
+from functools import reduce
+
+
 def divide(n1, n2):
     try:
         return n1 / n2
@@ -9,3 +12,4 @@ x = -1
 
 if x < 0:
     raise Exception("Sorry, no numbers below zero")
+

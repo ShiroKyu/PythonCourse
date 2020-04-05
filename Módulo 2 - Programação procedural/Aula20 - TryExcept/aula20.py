@@ -1,6 +1,6 @@
 try:
-    a = []
-    print(a[0])
+a = []
+print(a[0])
 except NameError as erro:
     print(erro)
 

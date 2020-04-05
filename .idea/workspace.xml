@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c506ea0-8129-4c8c-a2c4-078f20a38bfa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/PythonCourse-master.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonCourse-master.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projetos e mini-projetos/MiniUrna/miniUrna.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projetos e mini-projetos/MiniUrna/miniUrna.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Módulo 2 - Programação procedural/Aula20 - TryExcept/aula20.py" beforeDir="false" afterPath="$PROJECT_DIR$/Módulo 2 - Programação procedural/Aula20 - TryExcept/aula20.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Módulo 2 - Programação procedural/Aula20 - TryExcept/lancarExcecoes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Módulo 2 - Programação procedural/Aula20 - TryExcept/lancarExcecoes.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,11 +19,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Módulo 2 - Programação procedural/Aula11 - DictionaryCompreheension/aula11.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            <state relative-caret-position="272">
+              <caret line="16" column="47" lean-forward="true" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Módulo 2 - Programação procedural/Aula23 - CriarPacotes/aula23.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -65,12 +74,36 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PythonCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonCourse" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="Módulo 2 - Programação procedural" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="Módulo 2 - Programação procedural" type="462c0819:PsiDirectoryNode" />
+              <item name="Aula23 - CriarPacotes" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -84,7 +117,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.aula11">
+  <component name="RunManager" selected="Python.aula23">
     <configuration name="aula014" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonCourse-master" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -119,27 +152,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Aula15/aula015.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="aula02" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PythonCourse-master" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Aula02" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Aula02/aula02.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -190,13 +202,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="aula23" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonCourse-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Módulo 2 - Programação procedural/Aula23 - CriarPacotes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Módulo 2 - Programação procedural/Aula23 - CriarPacotes/aula23.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.aula23" />
         <item itemvalue="Python.aula11" />
         <item itemvalue="Python.aula015" />
         <item itemvalue="Python.aula014" />
         <item itemvalue="Python.aula03" />
-        <item itemvalue="Python.aula02" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +247,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-1" width="1368" height="727" extended-state="6" />
+    <frame x="0" y="0" width="1366" height="725" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49756098" weight="0.24944155" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -247,8 +280,15 @@
     <entry file="file://$PROJECT_DIR$/Aula15/aula015.py" />
     <entry file="file://$PROJECT_DIR$/Módulo 2 - Programação procedural/Aula11 - DictionaryCompreheension/aula11.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="272">
+          <caret line="16" column="47" lean-forward="true" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Módulo 2 - Programação procedural/Aula23 - CriarPacotes/aula23.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
