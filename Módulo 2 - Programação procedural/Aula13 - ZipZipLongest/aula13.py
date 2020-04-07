@@ -25,4 +25,7 @@ cidades2 = ['São Paulo', 'Belo Horizonte', 'Salvador', 'Pico da agulha']
 estados2 = ['SP', 'MG', 'BA']
 
 # Preenche com nome o que faltar, para setar valor padrão: fillValue
-cidadeEstados2 = zip_longest(indice, cidades2, estados2, fillvalue='Estado')
+cidadeEstados2 = zip_longest(cidades2, estados2, fillvalue='Estado')
+
+for i in cidadeEstados2:
+    print(i)

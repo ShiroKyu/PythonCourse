@@ -26,7 +26,9 @@ alunos_ordenados = groupby(alunos, ordena)
 chaves = []
 grupos = []
 
-for key, group in alunos_ordenados:  # alunos_ordenados é uma tupla, 'group' é um iterável de varios dicionarios de alunos no ccaso
+
+for key, group in alunos_ordenados:  # alunos_ordenados é uma tupla, 'group' é um iterável de varios dicionarios de alunos no caso
+    # [('A', <itertools._grouper object at 0x7f4f8002ed50>), ...]
     print(f'Agrupamento {key}:')
     chaves.append(key)
 
@@ -35,7 +37,8 @@ for key, group in alunos_ordenados:  # alunos_ordenados é uma tupla, 'group' é
         grupos.append(g)
 
     quantidade = len(list(group))
-
     # quantidade = len(list(group)), se tentar declarar a quantidade depois do for, o 'group' terá se esgotado, dando
     # como resultado da 'len' 0
     print(quantidade)
+
+print(chaves, grupos)

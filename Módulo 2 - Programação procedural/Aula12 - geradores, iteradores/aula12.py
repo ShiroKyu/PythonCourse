@@ -15,7 +15,7 @@ print(sys.getsizeof(lista2))
 
 
 def gera():
-    r = []
+    #r = []
     for n in range(100):
         yield n          # entrega o valor e para a execução, quando for chamado denovo retoma a execução
         time.sleep(0.1)
@@ -25,6 +25,7 @@ def gera():
 #    print(v)
 
 g = gera()
+print(g)
 for n in g:
     print(n)
 

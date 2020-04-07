@@ -14,7 +14,9 @@ from itertools import zip_longest
 lista_a = [10, 2, 3, 40, 5, 6, 7]
 lista_b = [1, 2, 3, 4]
 
-result = [x + y for x, y in zip_longest(lista_a, lista_b)]
+result = [x + y for x, y in zip(lista_a, lista_b)]
+#result = [x for x in zip(lista_a, lista_b)] --- [(10, 1), (2, 2), (3, 3), (40, 4)]
+
 print(result)
 
 # ou
