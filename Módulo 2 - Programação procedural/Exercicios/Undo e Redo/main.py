@@ -10,47 +10,35 @@ Faça uma lista de tarefas com as seguintes opções:
     input <- Nova tarefa
 """
 
-toDo = []
-reDo = []
-lastTask = ''
+from modulos.funcoes import adicionar, listar, desfazer, refazer
 
+if __name__ == "__main__":
+    toDo = []
+    reDo = []
 
-def adicionar(task):
-    toDo.append(task)
+    while True:
 
+        print('##### Agenda de tarefas #####\n')
+        print(
+            '[1] - adicionar\n[2] - listar\n[3] - Desfazer\n[4] - Refazer\n[5] - Sair\n')
+        opc = int(input('Informe uma opção: '))
 
-def listar(toDo):
-    if not toDo:
-        print('Nada a imprimir')
-        return
-    for task in toDo:
-        print(task)
+        if opc == 1:
+            task = input('Informe a tarefa: ')
+            adicionar(toDo, task)
+            continue
 
+        elif opc == 2:
+            listar(toDo)
+            continue
 
-def unDo(toDo):
-    pass
+        elif opc == 3:
+            desfazer(toDo, reDo)
+            continue
 
+        elif opc == 4:
+            refazer(toDo, reDo)
+            continue
 
-def reDo(toDo):
-    pass
-
-
-while True:
-    print('##### Agenda de tarefas #####\n')
-    print('[1] - adicionar\n[2] - listar\n[3] - Desfazer\n[4] - Refazer')
-    opc = int(input('Informe uma opção: '))
-
-    # if opc == 1:
-    #     task = input('Informe a tarefa: ')
-    #     adicionar(task)
-    #     reDo.append(task)
-    #     continue
-
-    # elif opc == 2:
-    #     listar(toDo)
-    #     continue
-
-    # elif opc == 3:
-    #     unDo(toDo)
-
-    # elif opc == 4:
+        elif opc == 5:
+            break
