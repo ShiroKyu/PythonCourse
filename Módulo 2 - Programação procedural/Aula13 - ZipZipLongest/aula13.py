@@ -7,8 +7,8 @@ from itertools import zip_longest, count
 
 # Código
 
-cidades = ['São Paulo', 'Belo Horizonte', 'Salvador', 'Pico da agulha']
-estados = ['SP', 'MG', 'BA', 'AM']
+cidades = ('São Paulo', 'Belo Horizonte', 'Salvador', 'Pico da agulha')
+estados = ('SP', 'MG', 'BA', 'AM')
 
 cidadesEstados = zip(cidades, estados)  # retorna um iterador
 
