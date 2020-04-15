@@ -8,6 +8,7 @@ print(string[2], end='\n\n')
 
 cont = 0
 
+
 novaString = ''
 while cont < len(string):
 
