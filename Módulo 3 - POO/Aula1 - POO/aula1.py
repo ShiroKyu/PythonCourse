@@ -7,3 +7,4 @@ print(p1.anoAtual)
 print(p2.anoAtual)
 
 print(p1.getAnoNascimento())
+print(p2.variavel)

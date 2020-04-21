@@ -53,3 +53,5 @@ class Pessoa:
 
     def getAnoNascimento(self):
         return self.anoAtual - self.idade
+
+    variavel = 'Hello'
