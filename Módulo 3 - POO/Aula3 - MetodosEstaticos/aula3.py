@@ -13,11 +13,13 @@ class Pessoa:
         print(self.ano_atual - self.idade)
 
     # Fábrica o objeto
+    # Caso precise alterar um atributo da classe diretamente
     @classmethod
     def por_ano_nascimento(cls, nome, anoNascimento):
         idade = cls.ano_atual - anoNascimento
         return cls(nome, idade)
 
+    # Caso não preciso mexer com o objeto(self) ou a classe(cls) em si
     @staticmethod
     def gera_id():
         rand = randint(10000, 19999)
