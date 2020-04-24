@@ -21,3 +21,14 @@ print(lista3)
 lista4 = {x for x in range(5)}
 print(lista4)
 print(type(lista4))
+
+print()
+
+li = [('A', 'B'), ('C', 'D')]
+
+novo_dict = {x: (y, z) for x, (y, z) in enumerate(enumerate(range(10)))}
+print(novo_dict, end='\n\n')
+
+
+numeracao = [(x, y) for x in range(10) for y in range(10)]
+print(numeracao)

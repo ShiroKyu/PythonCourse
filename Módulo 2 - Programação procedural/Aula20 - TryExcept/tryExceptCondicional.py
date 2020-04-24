@@ -2,6 +2,7 @@ def converte_numero(valor):
     try:
         valor = int(valor)
         return valor
+
     except ValueError:
         try:
             valor = float(valor)
