@@ -14,8 +14,6 @@ __ -> 'Privado', não deve-se acessar de jeito nenhum (_NOMECLASSE__nomeatributo
 
 
 class BaseDeDados:
-    def __init__(self):
-        self.__dados = {}
 
     # Getters e setter podem facilitar na hora de acessar e modificar atributos privados
     @property
@@ -25,6 +23,8 @@ class BaseDeDados:
     @dados.setter
     def dados(self, valor):
         self.__dados = valor
+    def __init__(self):
+        self.__dados = {}
 
     ########################################
 
