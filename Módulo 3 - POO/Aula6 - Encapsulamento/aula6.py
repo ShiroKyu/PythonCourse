@@ -23,6 +23,7 @@ class BaseDeDados:
     @dados.setter
     def dados(self, valor):
         self.__dados = valor
+
     def __init__(self):
         self.__dados = {}
 
