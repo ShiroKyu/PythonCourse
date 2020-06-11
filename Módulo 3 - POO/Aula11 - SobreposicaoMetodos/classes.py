@@ -15,7 +15,8 @@ class Cliente(Pessoa):
 
 class ClienteVIP(Cliente):
     def __init__(self, nome, idade, val_assinatura):
-        # Chama o construtor de Pessoa
+        # Chama o construtor de Cliente e por sua vez, Pessoa
+        print(super())
         super().__init__(nome, idade)
         self.val_assinatura = val_assinatura
 
